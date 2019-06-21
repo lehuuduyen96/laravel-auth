@@ -1,0 +1,19 @@
+
+sudo apt-get install php7.2-xml
+ sudo apt-get install php7.2-curl
+ sudo composer install
+ sudo apt install cmdtest
+ php artisan migrate
+ php artisan db:seed
+
+ yarn 
+ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ sudo apt-get update && sudo apt-get install yarn
+ yarn --version
+ yarn install
+
+ sudo apt install npm
+
+
+config/database.php
+ 'strict'    => false,
